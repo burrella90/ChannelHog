@@ -53,7 +53,7 @@ Check_Lock () {
 }
 
 Load_Cron () {
-	cru a ChannelHog "45 4 * * * sh /jffs/addons/channelhog/channelhog.sh check"
+	cru a ChannelHog "0 * * * * sh /jffs/addons/channelhog/channelhog.sh check"
 }
 
 Unload_Cron () {
